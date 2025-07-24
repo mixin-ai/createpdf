@@ -2,6 +2,43 @@
 <img width="629" height="709" alt="image" src="https://github.com/user-attachments/assets/b81b564f-c872-4979-9209-2e42d2621a4e" />
 
 ```
+        <!-- pdf:start -->
+        <dependency>
+            <groupId>com.itextpdf</groupId>
+            <artifactId>itextpdf</artifactId>
+            <version>5.5.11</version>
+        </dependency>
+        <dependency>
+            <groupId>com.itextpdf.tool</groupId>
+            <artifactId>xmlworker</artifactId>
+            <version>5.5.11</version>
+        </dependency>
+        <!-- 支持中文 -->
+        <dependency>
+            <groupId>com.itextpdf</groupId>
+            <artifactId>itext-asian</artifactId>
+            <version>5.2.0</version>
+        </dependency>
+        <!-- 支持css样式渲染 -->
+        <dependency>
+            <groupId>org.xhtmlrenderer</groupId>
+            <artifactId>flying-saucer-pdf-itext5</artifactId>
+            <version>9.1.16</version>
+        </dependency>
+        <!-- 转换html为标准xhtml包 -->
+        <dependency>
+            <groupId>net.sf.jtidy</groupId>
+            <artifactId>jtidy</artifactId>
+            <version>r938</version>
+        </dependency>
+        <dependency>
+            <groupId>org.freemarker</groupId>
+            <artifactId>freemarker</artifactId>
+            <version>2.3.32</version> <!-- Use latest stable version -->
+        </dependency>
+```
+
+```
               //使用
            // 创建检验报告数据
             InspectionReportData inspectionReportData = createTestInspectionData();

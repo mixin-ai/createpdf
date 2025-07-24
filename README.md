@@ -1,6 +1,7 @@
 
 <img width="629" height="709" alt="image" src="https://github.com/user-attachments/assets/b81b564f-c872-4979-9209-2e42d2621a4e" />
-```java
+
+```
               //使用
            // 创建检验报告数据
             InspectionReportData inspectionReportData = createTestInspectionData();
@@ -10,6 +11,7 @@
             CreatePDF.generateReport(inspectionReportData,"testRecord.ftl" ,targetFile);
 
 ```
+-----
 
 ```java
 private InspectionReportData createTestInspectionData() {

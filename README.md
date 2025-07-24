@@ -10,6 +10,7 @@
             CreatePDF.generateReport(inspectionReportData,"testRecord.ftl" ,targetFile);
 
 ```
+
 ```java
 private InspectionReportData createTestInspectionData() {
         InspectionReportData reportData = new InspectionReportData();
